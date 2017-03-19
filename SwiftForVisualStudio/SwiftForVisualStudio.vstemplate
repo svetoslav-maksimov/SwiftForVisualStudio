@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Project" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>SwiftForVisualStudio</Name>
+    <Description>SwiftForVisualStudio</Description>
+    <Icon>SwiftForVisualStudio.ico</Icon>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <SortOrder>1000</SortOrder>
+    <TemplateID>2c9a4a2b-1cf4-4f4a-95a5-cdd31bc29027</TemplateID>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SwiftForVisualStudio</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <Project File="ProjectTemplate.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" OpenInEditor="true">main.swift</ProjectItem>
+      <ProjectItem ReplaceParameters="true">SwiftBuild.targets</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

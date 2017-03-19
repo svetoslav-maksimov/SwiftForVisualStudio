@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs/SwiftForVisualStudio/v14/.suo
+/SwiftForVisualStudio/obj
+/SwiftForVisualStudio/bin
+/SwiftForVisualStudio/SwiftForVisualStudio.csproj.user
+*.suo
+/SwiftForVisualStudioVsix/bin/Debug
+/SwiftForVisualStudioVsix/bin/Release
+/SwiftForVisualStudioVsix/obj

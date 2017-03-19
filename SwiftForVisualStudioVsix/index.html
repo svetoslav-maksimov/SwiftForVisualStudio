@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
+
+    <title>Getting Started</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Getting Started</h1>
+            <h2>Swift for Visual Studio</h2>
+        </div>
+
+        <div id="main_content">
+            <div id="lpanel">
+                <h1>Setting up your environment</h1>
+
+                <p>This project enables Visual Studio users on Windows to copmile and execute Swift programs.</p>
+                <h2>Install swift for windows</h2>
+                <p>The project is based on <a href="https://swiftforwindows.codeplex.com">https://swiftforwindows.codeplex.com</a>. You can download the latest package from there.</p>
+
+                <ol>
+                    <li>Download SwiftForWindows from <a href="https://swiftforwindows.codeplex.com">https://swiftforwindows.codeplex.com</a></li>
+                    <li>You can install SwiftForWindows via the installer, but it's not a hard recommendation. You can just extract the content of WinRoot\SwiftForWindows into a folder on your local machine, e.g. D:\swiftForWindows</li>
+                    <li>Add the binaries path of SwiftForWindows (e.g. D:\SwiftForWindows\Swift\bin) to your local %PATH% variable.</li>
+                    <li>Restart Visual Studio so that it re-reads the %PATH% variable.</li>
+                    <li>Edit SwiftBuild.targets in your project. Make sure that paths are correct in this file.</li>
+                    <li>You can now start editing main.swift</li>
+                </ol>
+
+                <h2>Run and debug</h2>
+                <p>To run the project, press Ctrl+F5. Visual Studio will:</p>
+
+                <ul>
+                    <li>Compile the swift code.</li>
+                    <li>If any compile errors occur, they will be displayed in Visual Studio Errors window.</li>
+                    <li>Link object files to a Windows executable</li>
+                    <li>Start the generated executable.</li>
+                </ul>
+
+                <p><b>Note: Debugging is not supported in this version of Swift For Visual Studio</b></p>
+            </div>
+            <div id="rpanel">
+                <div>
+                    <h1>Resources</h1>
+
+                    <ol>
+                        <li><a target="_blank" href="https://swiftforwindows.codeplex.com/">SwiftForWindows</a><br />The swift compiler build for Windows, used in this project.</li>
+                        <li><a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.SyntaxHighlightingPack">Syntax Highlighting Pack</a><br />Useful extension for syntax highlighting with Swift support.</li>
+                        <li><a target="_blank" href="https://developer.apple.com/swift/">Swift language</a><br />The official page of the Swift language.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

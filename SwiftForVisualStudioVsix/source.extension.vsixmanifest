@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="SwiftForVisualStudioVsix.Svetoslav Maksimov.5222c859-3e37-4d53-a14d-1d2359b68f24" Version="0.1" Language="en-US" Publisher="Svetoslav Maksimov" />
+    <DisplayName>Swift Templates for Visual Studio</DisplayName>
+    <Description xml:space="preserve">Swift Templates for Visual Studio</Description>
+    <MoreInfo>https://github.com/svetoslav-maksimov/SwiftForVisualStudio</MoreInfo>
+    <GettingStartedGuide>index.html</GettingStartedGuide>
+    <Tags>swift</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0,]" />
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="SwiftForVisualStudio" d:TargetPath="|SwiftForVisualStudio;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+</PackageManifest>
