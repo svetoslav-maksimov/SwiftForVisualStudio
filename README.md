@@ -23,7 +23,7 @@ To run the project, press Ctrl+F5. Visual Studio will:
 **Note: Debugging is not supported in this version of Swift For Visual Studio**
             
             
-## Resources
+## Additional resources
 * [SwiftForWindows](https://swiftforwindows.codeplex.com/)
 The swift compiler build for Windows, used in this project.
 
