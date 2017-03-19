@@ -32,7 +32,10 @@ To run the project, press Ctrl+F5. Visual Studio will:
 * Start the generated executable.
 
 **Note: Debugging is not supported in this version of Swift For Visual Studio**
-            
+
+
+## Demo
+[See a demo video](https://github.com/svetoslav-maksimov/SwiftForVisualStudio/blob/master/swift-for-vs-0-1.mp4)
             
 ## Additional resources
 * [SwiftForWindows](https://swiftforwindows.codeplex.com/)
