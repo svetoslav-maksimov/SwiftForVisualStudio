@@ -1,5 +1,5 @@
 # Swift Templates for Visual Studio
-**Version 0.1**
+**Version 0.1.1**
 
 ## Getting Started
 This project enables Visual Studio users on Windows to copmile and execute Swift programs.
