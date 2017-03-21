@@ -18,6 +18,9 @@
       <SwiftForWindowsLibsPath>$(SwiftForWindowsPath)lib\swift_static\windows</SwiftForWindowsLibsPath>
       <SwiftForWindowsCompilerPath>$(SwiftForWindowsPath)bin\swiftc</SwiftForWindowsCompilerPath>
     </PropertyGroup>
+    
+    <Error Condition="!Exists('$(VisualStudioVariableInit)')" Text="Please make sure that Visual C++ tools for Visual Studio are installed. Cannot find $(VisualStudioVariableInit)" />
+    <Error Condition="!Exists('$(SwiftForWindowsCompilerPath).exe')" Text="Please make sure that Swift for Windows is installed. Cannot find $(SwiftForWindowsCompilerPath)" />
 
     <Message Importance="High" Text="Starting swift build. @(InputFiles)" />
     <Exec Command="cmd /c &quot;call &quot;$(VisualStudioVariableInit)&quot; amd64 &amp; &quot;$(SwiftForWindowsCompilerPath)&quot; -c &quot;$(ProjectDir)$(EntryPoint)&quot; -o &quot;$(TargetDir)$(TargetName).obj&quot;"
